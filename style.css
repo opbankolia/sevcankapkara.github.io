@@ -1,0 +1,83 @@
+html {
+  overflow-y: scroll;
+}
+#full {
+   text-size-adjust: none;
+   -webkit-text-size-adjust:none;
+-moz-text-size-adjust:none;
+   width:900px;
+   margin:0 auto;
+   padding:15px;
+   
+}
+#header {
+font-family: "Times New Roman", Times, serif;
+font-size: 14px;
+    background-color:white;
+    color:Navy;
+    text-align:center;
+    padding:5px;
+}
+
+#nav {
+   font: normal 12pt;
+    background-color:white;
+font-family: "Times New Roman", Times, serif;
+    width:250px;
+    float:left;
+    padding:5px;     
+}
+
+#section {
+font: normal 13pt "Times New Roman", Times, serif;
+-webkit-text-size-adjust:none;
+-moz-text-size-adjust:none;
+text-size-adjust: none;
+text-align: left;
+    width:600px;
+    float:left;
+    padding:15px;    
+}
+
+
+#quote {
+    background-color:white;
+    color:black;
+    clear:both;
+    text-align:center;
+   padding:15px;     
+}
+#footer {
+    background-color:white;
+    color:black;
+    clear:both;
+    text-align:center;
+   padding:5px;    
+}
+ul#menu {
+    padding: 0;
+}
+
+ul#menu li {
+    display: inline;
+    border-color: #0000ff;
+
+}
+
+ul#menu li a {
+    background-color: white;
+    color: #005596;
+    padding: 3px 6px;
+    text-decoration: none;
+    border-radius: 1px 0 1px 0;
+    font: normal 12pt "Times New Roman", Times, serif;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #D8D8D8 ;
+    
+}
+
+ul#menu li a:hover {
+  border-bottom-color: #005596;
+  border-bottom-width: 2px;
+}
